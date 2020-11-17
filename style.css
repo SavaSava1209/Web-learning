@@ -1,0 +1,90 @@
+body {
+    background-image:url(https://target.scene7.com/is/image/Target/GUEST_517aefe0-44fd-4764-b952-0010ca67c662?fmt=webp&wid=1400&qlt=80);
+    background-size:cover;
+
+}
+
+h1 {
+    color: blue;
+    cursor: pointer;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align:center;
+   /* font-size:10rem;*/
+}
+
+.buffer {
+    height:50px;
+}
+
+
+hr {
+    border-color:blue;
+    max-width: 65px
+
+}
+
+.btn {
+   border-radius: 300px; 
+   color:red;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn-primary {
+    background-color: pink
+    border-color:pink;
+}
+
+p {
+    border: 5px solid pink;
+    text-align: right;
+    font-family: "Georgia"
+    font-size: 30px;
+}
+
+.col{
+    background-color: blue
+    border:solid black;
+}
+.container {
+    /*float:left;*/
+    display:flex;
+    margin: 200px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    align-items: flex-end;
+
+
+
+
+
+    /*flex-direction: column*/;
+
+    }
+
+div >img {
+    width: 400px;
+    height:400px;
+    margin: 3px;
+    align-items: flex-end;
+    transition: all 1s;
+    }
+
+img:hover {
+    transform:scale(1.2);
+}
+
+footer {
+    clear: both;
+    text-align: center;
+
+}
+
+li {
+    /*text-align: center;*/
+    display: inline-block;
+    align-items: flex-end;
+}
